@@ -1,6 +1,7 @@
 ## Coordinate System
 
 Right-handed chirality
+
 - X: forward/back - 🔴
 - Y: right/left - 🟢
 - Z: up/down (+ up) - 🔵
@@ -32,6 +33,7 @@ Orthographic modes are "straight on" and don't reflect any perspective. If you r
 
 You can tape on the ends of the 3D gizmo in the upper right corner of the 3D Viewport to select into one of those mode, or use a key combination to jump there. If you have a numeric keypad on your keyboard, the numeric keys on that pad will jump to the same views as the menu selection.
 
+
 Use the "~" key to bring up a circular menu that lets you change the current view:
 
 - "~","8" - top view
@@ -42,7 +44,6 @@ Use the "~" key to bring up a circular menu that lets you change the current vie
 - "~","2" - bottom view
 - "~","3" - view selected
 - "~","1" - view camera
-
 
 ## View Rendering
 
@@ -56,9 +57,9 @@ Use the "~" key to bring up a circular menu that lets you change the current vie
 ## Keyboard View Controls
 
 - "t": toggle show/hide of left-hand side tools
- - use Shift + Spacebar to activate a quick selection.
+  - use Shift + Spacebar to activate a quick selection.
 - "n": toggle right-hand sidebar
- - item, tool, view, and create inspectors/tool choice
+  - item, tool, view, and create inspectors/tool choice
 - option-"z" - toggle x-ray mode
 
 ## ViewPort Overlay
@@ -70,7 +71,7 @@ You can enable "statistics" in the viewport overlays (pull down menu from the to
 ### Object Mode
 
 The default mode for the 3D viewport. Objects can also be found in the outliner, and may (or not) have geometry in the viewport.
-Any mesh is an object - and has an "origin point", represented by a bright orange dot when the object is selected. 
+Any mesh is an object - and has an "origin point", represented by a bright orange dot when the object is selected.
 
 Moving an object in object mode (using the "g" to grab it, for example) moves the origin with the object.
 

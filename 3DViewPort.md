@@ -29,11 +29,15 @@ You can also navigate by using the 3D gizmo in the upper-right-hand corner.
 
 ## Orthographic and Perspective Views
 
-Orthographic modes are "straight on" and don't reflect any perspective. If you rotate the view off that straight-on view, it enables perspective mode. When you're manipulating geometry in [[Edit Mode]], it can be extremely useful to be in one of the orthographic views, or you can constrain the editing effects using a modifier key.
+An orthographic view is aligned with one of the axis, showing a "straight on" view without perspective. When you rotate away, the 3D Viewpoint distorts the image slightly to show perspective. 
 
-You can tape on the ends of the 3D gizmo in the upper right corner of the 3D Viewport to select into one of those mode, or use a key combination to jump there. If you have a numeric keypad on your keyboard, the numeric keys on that pad will jump to the same views as the menu selection.
+Editing within orthographic mode is naturally aligned to axis. Achieve the same effect when in [[Edit Mode]] with perspective camera by using a constraint modifier keyboard shortcut .
 
+### Gizmo
+Tap on the round points at the ends of the lines in the 3D gizmo to jump into an orthographic view. Tap again to jump to the opposite view on that axis.
+Red (x-axis) for front/back view, green (y-axis) for right and left side view, and blue (z-axis) for top/bottom view.
 
+### Keyboard shortcuts
 Use the "~" key to bring up a circular menu that lets you change the current view:
 
 - "~","8" - top view
@@ -45,14 +49,17 @@ Use the "~" key to bring up a circular menu that lets you change the current vie
 - "~","3" - view selected
 - "~","1" - view camera
 
+If you have a numeric keypad on your keyboard, the numeric keys on that pad will jump to the same views as the menu selection.
+
 ## View Rendering
 
-- Wireframe
-- Solid
-- Shading
-- Rendering
+"z" brings up a radial menu that lets you choose between the various rendering modes:
+- 4 - Wireframe
+- 6 - Solid
+- 2 - Shading
+- 8 - Rendered
 
-"z" brings up a radial menu that lets you choose between the various rendering modes. Jumping to "wireframe" mode can be useful in [[Edit Mode]] to select vertices and/or faces that are otherwise hidden.
+Jumping to "wireframe" mode can be useful in [[Edit Mode]] to select vertices and/or faces that are otherwise hidden.
 
 ## Keyboard View Controls
 
